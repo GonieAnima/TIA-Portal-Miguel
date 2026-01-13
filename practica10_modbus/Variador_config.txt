@@ -1,0 +1,8 @@
+00.20 - 1 Master Frequency Command RS485
+00.21 - 2 Operation Command RS485
+05.xx - Parametros del motor
+09.00 - 2 Id Comunication Adress (ID del variador)
+09.01 - 9.6 Speed Transmision
+09.02 - 1 Fault Ramp Stop
+09.03 - 1.0 Time-out detection (en seg)
+09.04 - 12 Comunication Protocol (8,N,1)
