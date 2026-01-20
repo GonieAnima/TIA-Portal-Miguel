@@ -1,0 +1,9 @@
+Vale, cuando ocurra esto cuando pruebes con el HMI y te da el error de could not change (variable) in PLC o algo así, esto puede ser por varias causas:
+
+-1 la primera a considerar es que anteriormente con este ordenador se han hecho pruebas con PLCSIM y puede que se te haya desconfigurado algo:
+  - te vas al panel de control de tu equipo
+  - ajustar la configuración del equipo
+  - ajustar interface PC/PG 
+  - y ahi si has tenido ese error deberia estar seleccionado el TCPIP como parametrización utilizada
+  - desde ahi lo tienes que cambiar a la tarjeta de red de tu ordenador
+  - luego comprueba si el HMI ya escribe en el PLC y :)
