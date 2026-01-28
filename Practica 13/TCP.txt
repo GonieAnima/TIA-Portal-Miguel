@@ -1,0 +1,11 @@
+Como conectar TCP
+
+1 Crear variable TCON_IP_v4
+- Cuando se crea eso se han de rellenar los parametros:
+  -InterfaceID:
+  -ID:
+  -ConnectionType:
+  -ActiveEstablished:
+  -RemoteAddress: (un array en el que cada uno de sus valores es un numero de la dirección IP)
+  -RemotePort:
+  -LocalPort:
