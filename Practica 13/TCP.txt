@@ -9,3 +9,12 @@ Como conectar TCP
   -RemoteAddress: (un array en el que cada uno de sus valores es un numero de la dirección IP)
   -RemotePort:
   -LocalPort:
+
+2 Configurar MB_CLIENT
+  -EN (le entra el palo estilo KOP)
+  -REQ (true, para peticiones constantes)
+  -DISCONECT (false, no se desconecta)
+  -MB_DATA_ADDR  (lo que ponga en los parametros en HEX a decimal + 40001)
+  -MB_DATA_LEN  (1, longitud en words {2 bytes})
+  -MB_DATA_PTR  ( comando word a enviar con un offset de dos bytes al anterior)
+  -CONNECT      (variable TCON_IP_V4)
